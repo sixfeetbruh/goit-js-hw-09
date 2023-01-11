@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 10px;
+  width: calc(100px * 4);
+  margin: 0 auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding: 0 5px;
+
+  border: 2px solid gray;
+}
+
+.value {
+  text-align: center;
+  font-size: 44px;
+  color: purple;
+  border-bottom: 2px solid gray;
+}
+
+.label {
+  text-align: center;
+  font-size: 24px;
+  color: purple;
+}
